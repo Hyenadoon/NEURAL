@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "style.css";
+@import "";
+
+@font-face {
+    font-family: TT Norms;
+    src: url(../Fonts/TT\ Norms\ Pro\ Educational\ Variable.ttf);
+}

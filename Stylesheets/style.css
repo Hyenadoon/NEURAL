@@ -1,0 +1,345 @@
+h2 {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 3vw;
+    font-weight: 600;
+    margin-bottom: 1.4vw;
+    margin-left: 24vw;
+    max-width: 70vw;
+}
+
+.textblock1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3.5vw;
+}
+
+.smallparagpaph {
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-weight: 300;
+    max-width: 55vw;
+    margin-left: 24vw;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    font-family: TT Norms;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block1 {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80vh;
+    border-radius: 0px 13px 13px 0px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.block2 {
+    background-color: rgb(0, 0, 0);
+    width: 400%;
+    border-radius: 13px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block3 {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80vh;
+    border-radius: 13px 0px 0px 13px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.neural_logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.neural_logo {
+    width: 100%;
+    max-width: 120vh;
+    height: auto;
+}
+
+.rollingtext_container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 5vh;
+    overflow: hidden;
+}
+
+.scroll {
+    white-space: nowrap;
+    margin: 0 2em;
+}
+
+.scroll div {
+    display: flex;
+    gap: 2em ;
+}
+
+.scroll p {
+    font-size: 1.8em;
+    font-weight: 50;
+    color: rgb(255, 255, 255);
+}
+
+.right_to_left {
+    animation: Right_to_Left 10s infinite linear;
+}
+
+@keyframes Right_to_Left {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.rollinglogo_container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 17vh;
+    overflow: hidden;
+}
+
+.logoscroll {
+    white-space: nowrap;
+    margin: 0 2em;
+}
+
+.logoscroll div {
+    display: flex;
+    gap: 2em ;
+}
+
+.logoscrollright_to_left {
+    animation: logoscrollright_to_left 10s infinite linear;
+}
+
+@keyframes logoscrollright_to_left {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.logoscrollleft_to_right {
+    animation: logoscrollleft_to_right 10s infinite linear;
+}
+
+@keyframes logoscrollleft_to_right {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.container {
+    overflow: hidden;
+}
+
+.binaural_beat ul li {
+    list-style: none;
+    height: 80px;
+    width: 3.5vw;
+    transform-origin: bottom;
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    animation: beat 1.5s linear infinite;
+}
+
+@keyframes beat {
+    0% {
+        transform: scaleY(0) ;
+    }
+    50% {
+        transform: scaleY(1) ;
+    }
+    100% {
+        transform: scaleY(0) ;
+    }
+}
+
+.binaural_beat ul li:nth-child(1) {
+    animation-delay: 0.2s;
+    height: 85vh;
+}
+
+.binaural_beat ul li:nth-child(2) {
+    animation-delay: 0.4s;
+    height: 60vh;
+}
+
+.binaural_beat ul li:nth-child(3) {
+    animation-delay: 0.3s;
+    height: 75vh;
+}
+
+.binaural_beat ul li:nth-child(4) {
+    animation-delay: 0.2s;
+    height: 55vh;
+}
+
+.binaural_beat ul li:nth-child(5) {
+    animation-delay: 0.6s;
+    height: 40vh;
+}
+
+.binaural_beat ul li:nth-child(6) {
+    animation-delay: 0.4s;
+    height: 64vh;
+}
+
+.binaural_beat ul li:nth-child(7) {
+    animation-delay: 0.5s;
+    height: 60vh;
+}
+
+.binaural_beat2 ul li {
+    list-style: none;
+    height: 80px;
+    width: 3.5vw;
+    transform-origin: bottom;
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    animation: beat2 1.5s linear infinite;
+}
+
+@keyframes beat2 {
+    0% {
+        transform: scaleY(0) ;
+    }
+    50% {
+        transform: scaleY(1) ;
+    }
+    100% {
+        transform: scaleY(0) ;
+    }
+}
+
+.binaural_beat2 ul li:nth-child(1) {
+    animation-delay: 0.6s;
+    height: 85vh;
+}
+
+.binaural_beat2 ul li:nth-child(2) {
+    animation-delay: 0.2s;
+    height: 50vh;
+}
+
+.binaural_beat2 ul li:nth-child(3) {
+    animation-delay: 0.4s;
+    height: 75vh;
+}
+
+.binaural_beat2 ul li:nth-child(4) {
+    animation-delay: 0.5s;
+    height: 45vh;
+}
+
+.binaural_beat2 ul li:nth-child(5) {
+    animation-delay: 0.7s;
+    height: 30vh;
+}
+
+.binaural_beat2 ul li:nth-child(6) {
+    animation-delay: 0.3s;
+    height: 64vh;
+}
+
+.binaural_beat2 ul li:nth-child(7) {
+    animation-delay: 0.5s;
+    height: 35vh;
+}
+
+.block_last {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 77vh;
+    border-radius: 13px 13px 13px 13px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+}
+
+.wave_anim {
+    animation: wave 1.5s linear infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: scale(30%) ;
+    }
+    50% {
+        transform: scale(300%);
+    }
+    100% {
+        transform: scale(30%) ;
+    }
+}
+
+.kamerton {
+    width: 5vw;
+    margin-top: 18vw;
+}
+
+footer {
+    border-top: 1px solid;
+    border-color: rgb(255, 255, 255);
+    padding-top: 1.8vw;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+    margin-bottom: 1.8vw;
+}
+
+.footer_paragraph {
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-weight: 300;
+    max-width: 55vw;
+}
+
+.hse_logo {
+    width: 100%;
+    max-width: 25vw;
+    height: auto;
+}
